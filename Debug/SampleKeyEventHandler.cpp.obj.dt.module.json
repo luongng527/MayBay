@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "Debug\\SampleKeyEventHandler.obj",
+            "outputs": [
+                "Debug\\SampleKeyEventHandler.cpp.obj.dt.module.json",
+                "Debug\\SampleKeyEventHandler.cpp.obj.dt.d.json"
+            ],
+            "requires": []
+        }
+    ]
+}

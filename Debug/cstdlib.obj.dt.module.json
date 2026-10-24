@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "Debug\\cstdlib.obj",
+            "outputs": [
+                "Debug\\cstdlib.obj.dt.module.json",
+                "Debug\\cstdlib.obj.dt.d.json"
+            ],
+            "requires": []
+        }
+    ]
+}

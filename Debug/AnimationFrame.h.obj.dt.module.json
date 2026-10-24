@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "Debug\\AnimationFrame.obj",
+            "outputs": [
+                "Debug\\AnimationFrame.h.obj.dt.module.json",
+                "Debug\\AnimationFrame.h.obj.dt.d.json"
+            ],
+            "requires": []
+        }
+    ]
+}

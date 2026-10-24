@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "Debug\\CSampleKeyHandler2.obj",
+            "outputs": [
+                "Debug\\CSampleKeyHandler2.h.obj.dt.module.json",
+                "Debug\\CSampleKeyHandler2.h.obj.dt.d.json"
+            ],
+            "requires": []
+        }
+    ]
+}

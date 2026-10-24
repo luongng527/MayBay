@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "Debug\\KeyEventHandler2.obj",
+            "outputs": [
+                "Debug\\KeyEventHandler2.h.obj.dt.module.json",
+                "Debug\\KeyEventHandler2.h.obj.dt.d.json"
+            ],
+            "requires": []
+        }
+    ]
+}

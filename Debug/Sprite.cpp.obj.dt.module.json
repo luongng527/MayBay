@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "Debug\\Sprite.obj",
+            "outputs": [
+                "Debug\\Sprite.cpp.obj.dt.module.json",
+                "Debug\\Sprite.cpp.obj.dt.d.json"
+            ],
+            "requires": []
+        }
+    ]
+}
