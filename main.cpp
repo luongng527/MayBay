@@ -208,10 +208,10 @@ void LoadResources()
 
 	// Plant objects 
 	LPTEXTURE texPlant = textures->Get(ID_TEX_NES);
-	sprites->Add(30000, 24, 8, 48, 24, texPlant);
-	sprites->Add(30001, 56, 8, 80, 24, texPlant);
-	sprites->Add(30002, 88, 8, 112, 24, texPlant);
-	sprites->Add(30003, 120, 8, 144, 24, texPlant);
+	sprites->Add(30000, 24, 8, 47, 23, texPlant);
+	sprites->Add(30001, 56, 8, 79, 23, texPlant);
+	sprites->Add(30002, 88, 8, 111, 23, texPlant);
+	sprites->Add(30003, 120, 8, 143, 23, texPlant);
 
 	ani = new CAnimation(100);
 	ani->Add(30000);

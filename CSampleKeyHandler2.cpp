@@ -12,8 +12,7 @@ void CSampleKeyHandler2::OnKeyDown(int KeyCode)
 	DebugOut(L"[INFO] KeyDown: %d\n", KeyCode);
 	switch (KeyCode)
 	{
-	case DIK_S:
-		plant->SetState(PLANT_NOTMOVE);
+	
 		break;
 	}
 }
@@ -23,8 +22,7 @@ void CSampleKeyHandler2::OnKeyUp(int KeyCode)
 	DebugOut(L"[INFO] KeyUp: %d\n", KeyCode);
 	switch (KeyCode)
 	{
-	case DIK_S:
-		plant->SetState(PLANT_NOTMOVE);
+	
 		break;
 	}
 }
@@ -33,6 +31,7 @@ void CSampleKeyHandler2::KeyState(BYTE* states)
 {
 	CGame* game = CGame::GetInstance();
 
+	// 1. Xử lý trục Ngang (X)
 	if (game->IsKeyDown(DIK_RIGHT))
 	{
 		plant->SetState(PLANT_MOVE_STRANGT);
@@ -41,14 +40,22 @@ void CSampleKeyHandler2::KeyState(BYTE* states)
 	{
 		plant->SetState(PLANT_MOVE_LUI);
 	}
+	else 
+	{
+		plant->SetState(PLANT_STOP_X); // Định nghĩa thêm state này
+	}
+
+	// 2. Xử lý trục Dọc (Y)
+	if (game->IsKeyDown(DIK_DOWN))
+	{
+		plant->SetState(PLANT_MOVE_DOWN);
+	}
 	else if (game->IsKeyDown(DIK_UP))
 	{
 		plant->SetState(PLANT_MOVE_UP);
 	}
-	else if (game->IsKeyDown(DIK_DOWN))
-	{
-		plant->SetState(PLANT_MOVE_DOWN);
-	}
 	else 
-		plant->SetState(PLANT_NOTMOVE);
+	{
+		plant->SetState(PLANT_STOP_Y); // Định nghĩa thêm state này
+	}
 }

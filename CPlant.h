@@ -6,12 +6,14 @@
 
 #include "debug.h"
 
-#define PLANT_SPEED		0.2f
+#define PLANT_SPEED		0.1f
 #define PLANT_ACCEL		0.0005f
 
 
 
 #define PLANT_NOTMOVE 3000
+#define PLANT_STOP_X 2998
+#define PLANT_STOP_Y 2999
 #define PLANT_MOVE_STRANGT 3001
 #define PLANT_MOVE_UP	3002
 #define PLANT_MOVE_DOWN 3003
